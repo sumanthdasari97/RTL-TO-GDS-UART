@@ -56,11 +56,9 @@ Place and route can be performed using [Cadence Innovus]. The commands are inclu
 
 [innovus.cmd](PnR/innovus.cmd)
 
-
 ```markdown
-
 source innovus.cmd
-
+```
 
 
 
