@@ -46,5 +46,17 @@ The synthesis of the RTL code can be done using Genus. After setting up the envi
 
 \-[genus_script.tcl](synthesis/Genus_script.tcl) : UART Verilog File
 
+## Place and Route
+Place and route can be performed using [Cadence Innovus]. The commands are included in the `innovus.cmd` script. To run the place and route, execute:
+
+
+
+
+```markdown
+
+source [innovus.cmd](PnR/innovus.cmd)
+
+
+
 
 
