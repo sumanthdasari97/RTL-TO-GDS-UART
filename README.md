@@ -39,7 +39,7 @@ The UART design is a crucial component for serial communication in various appli
 ## RTL Design
 The RTL code is written in Verilog/VHDL and located in the RTL/ directory. The design includes the following modules:
 
-\\-[uart.v](RTL/Verilog)
+\-[uart.v](RTL/Verilog)
 
 
 
