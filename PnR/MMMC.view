@@ -1,0 +1,12 @@
+# Version:1.0 MMMC View Definition File
+# Do Not Remove Above Line
+create_rc_corner -name RC_CORNER -cap_table {/public/devkits/GPDK/gpdk45/6.0/soce/gpdk045.extended.CapTbl} -preRoute_res {1.0} -preRoute_cap {1.0} -preRoute_clkres {0.0} -preRoute_clkcap {0.0} -postRoute_res {1.0} -postRoute_cap {1.0} -postRoute_xcap {1.0} -postRoute_clkres {0.0} -postRoute_clkcap {0.0} -qx_tech_file {/public/devkits/GPDK/gpdk45/6.0/gsclib045/gsclib045/qrc/qx/gpdk045.tch}
+create_library_set -name SLOW -timing {../lib/slow_vdd1v0_basicCells.lib}
+create_library_set -name FAST -timing {../lib/fast_vdd1v0_basicCells.lib}
+create_constraint_mode -name CONSTRAINTS -sdc_files {../synthesis/outputs/uart_sdc.sdc}
+create_delay_corner -name MAXIMUM_DELAY -library_set {SLOW} -rc_corner {RC_CORNER}
+create_delay_corner -name MINIMUM_DELAY -library_set {FAST} -rc_corner {RC_CORNER}
+create_analysis_view -name WORST -constraint_mode {CONSTRAINTS} -delay_corner {MAXIMUM_DELAY}
+create_analysis_view -name BEST -constraint_mode {CONSTRAINTS} -delay_corner {MINIMUM_DELAY}
+set_analysis_view -setup {WORST} -hold {BEST}
+
