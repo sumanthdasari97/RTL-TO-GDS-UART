@@ -14,9 +14,7 @@ This repository contains the design and implementation of a Universal Asynchrono
 - [Synthesis](#synthesis)
 - [Place and Route](#place-and-route)
 - [GDS Generation](#gds-generation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
 
@@ -70,6 +68,10 @@ After resolving any DRC (Design Rule Check) issues, the GDSII file can be genera
 4. Follow the prompts to save your GDSII file.
 
 The GDSII file will be available in your specified directory.
+
+
+
+Note : I have used a Public git hub Repo for the RTl Design and made changes to it 
 
 
 
