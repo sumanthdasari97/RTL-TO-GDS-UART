@@ -71,7 +71,7 @@ The GDSII file will be available in your specified directory.
 
 
 
-Note : I have used a Public git hub Repo for the RTl Design and made changes to it 
+*Note : I have used a Public git hub Repo for the RTl Design and made changes to it *
 
 
 
