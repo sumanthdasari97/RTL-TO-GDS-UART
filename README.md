@@ -36,7 +36,8 @@ The UART design is a crucial component for serial communication in various appli
 - [Toolchain/EDA Tools](#) (e.g., Cadence Genus, Cadence Innovus)
 - TCL (for any scripting needs)
 
-  RTL Design
+## RTL Design
 The RTL code is written in Verilog/VHDL and located in the RTL/ directory. The design includes the following modules:
+''' verilog
 
 
