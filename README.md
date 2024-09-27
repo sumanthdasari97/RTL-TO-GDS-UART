@@ -43,6 +43,7 @@ The RTL code is written in Verilog/VHDL and located in the RTL/ directory. The d
 
 ## Synthesis
 The synthesis of the RTL code can be done using Genus. After setting up the environment, run the synthesis script located in the synthesis/ directory:
+
 \-[genus_script.tcl](synthesis/Genus_script.tcl) : UART Verilog File
 
 
