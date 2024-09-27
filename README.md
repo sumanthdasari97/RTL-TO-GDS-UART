@@ -70,6 +70,8 @@ After resolving any DRC (Design Rule Check) issues, the GDSII file can be genera
 The GDSII file will be available in your specified directory.
 
 
+GDSII 
+![uart](https://github.com/user-attachments/assets/bf261ccf-a001-4910-b488-ed7ce846a10d)
 
 *Note: I have used a public GitHub repository for the RTL design and made modifications to it. *
 
