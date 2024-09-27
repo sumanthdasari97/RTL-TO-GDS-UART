@@ -52,13 +52,25 @@ source genus_script.tcl
 ```
 
 ## Place and Route
-Place and route can be performed using [Cadence Innovus]. The commands are included in the `innovus.cmd` script. To run the place and route, execute:
+Place and route can be performed using Cadence Innovus. The commands are included in the `innovus.cmd` script. To run the place and route, execute:
 
 [innovus.cmd](PnR/innovus.cmd)
 
 ```markdown
 source innovus.cmd
 ```
+
+## GDS Generation
+
+After resolving any DRC (Design Rule Check) issues, the GDSII file can be generated using the Innovus GUI. To do this:
+
+1. Open the Innovus tool.
+2. Load your design.
+3. Navigate to the menu and select **File > Save > GDS**.
+4. Follow the prompts to save your GDSII file.
+
+The GDSII file will be available in your specified directory.
+
 
 
 
