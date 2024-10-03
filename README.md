@@ -79,7 +79,7 @@ The GDSII file will be available in your specified directory.
 
 
 
-*Note: I have used a public GitHub repository for the RTL design and made modifications to it. *
+*Note: I have used a public GitHub(acoimbramendes) repository for the RTL design and made modifications to it. *
 
 
 
